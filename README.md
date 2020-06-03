@@ -116,6 +116,7 @@ In order to produce a uniquely identifiable distribution:
 Feedstock Maintainers
 =====================
 
+* [@nicoddemus](https://github.com/nicoddemus/)
 * [@pg-hbk](https://github.com/pg-hbk/)
 * [@sy-hbk](https://github.com/sy-hbk/)
 
