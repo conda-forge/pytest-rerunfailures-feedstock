@@ -1,27 +1,28 @@
 {% set name = "pytest-rerunfailures" %}
-{% set version = "8.0" %}
+{% set version = "9.0" %}
 
 package:
-  name: "{{ name|lower }}"
-  version: "{{ version }}"
+  name: {{ name|lower }}
+  version: {{ version }}
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: 17c1236b9f8463f74a5df6c807f301c53c2ea1ab81b7509b7e23fab3b7cbe812
+  sha256: 895ac2a6486c0da0468ae31768b818d9f3f7fceddef110970c7dbb09e7b4b8e4
 
 build:
   number: 0
   noarch: python
-  script: "{{ PYTHON }} -m pip install . -vv"
+  script: {{ PYTHON }} -m pip install . -vv
 
 requirements:
   host:
     - pip
-    - pytest >=4.4
-    - python
+    - pytest >=5.0
+    - setuptools >=40.0
+    - python >=3.5
   run:
-    - pytest >=4.4
-    - python
+    - pytest >=5.0
+    - python >=3.5
 
 test:
   imports:
@@ -36,5 +37,6 @@ about:
 
 extra:
   recipe-maintainers:
+    - nicoddemus
     - pg-hbk
     - sy-hbk
