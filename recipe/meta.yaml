@@ -1,5 +1,5 @@
 {% set name = "pytest-rerunfailures" %}
-{% set version = "9.0" %}
+{% set version = "9.1" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: 895ac2a6486c0da0468ae31768b818d9f3f7fceddef110970c7dbb09e7b4b8e4
+  sha256: 0b17968efab57b24808fa7c05e8298236811b780debdb020cabec970fa386ca0
 
 build:
   number: 0
@@ -23,6 +23,7 @@ requirements:
   run:
     - pytest >=5.0
     - python >=3.5
+    - setuptools >=40.0
 
 test:
   imports:

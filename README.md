@@ -5,7 +5,7 @@ Home: https://github.com/pytest-dev/pytest-rerunfailures
 
 Package license: MPL-2.0
 
-Feedstock license: BSD 3-Clause
+Feedstock license: BSD-3-Clause
 
 Summary: pytest plugin to re-run tests to eliminate flaky failures
 
