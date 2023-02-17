@@ -1,5 +1,5 @@
 {% set name = "pytest-rerunfailures" %}
-{% set version = "11.1" %}
+{% set version = "11.1.1" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: bc6ad13614c976b04558c3a7bcc393a7e09686fb86b6ae73f827b78326c09f75
+  sha256: acab447edff7c29a76b8410207c48da01406a161653c99a325cf5703d44eb162
 
 build:
   number: 0
