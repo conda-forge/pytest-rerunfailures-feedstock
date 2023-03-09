@@ -1,11 +1,11 @@
-About pytest-rerunfailures
-==========================
+About pytest-rerunfailures-feedstock
+====================================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/pytest-rerunfailures-feedstock/blob/main/LICENSE.txt)
 
 Home: https://github.com/pytest-dev/pytest-rerunfailures
 
 Package license: MPL-2.0
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/pytest-rerunfailures-feedstock/blob/main/LICENSE.txt)
 
 Summary: pytest plugin to re-run tests to eliminate flaky failures
 
