@@ -22,7 +22,7 @@ requirements:
   run:
     - packaging >=17.1
     - importlib-metadata
-    - pytest >=5.3
+    - pytest >=6.2
     - python >=3.7
     - setuptools
 
