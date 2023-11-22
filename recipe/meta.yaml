@@ -1,5 +1,5 @@
 {% set name = "pytest-rerunfailures" %}
-{% set version = "12.0" %}
+{% set version = "13.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: 784f462fa87fe9bdf781d0027d856b47a4bfe6c12af108f6bd887057a917b48e
+  sha256: e132dbe420bc476f544b96e7036edd0a69707574209b6677263c950d19b09199
 
 build:
   number: 0
@@ -21,8 +21,8 @@ requirements:
     - python >=3.7
   run:
     - packaging >=17.1
-    - importlib-metadata
-    - pytest >=6.2
+    - importlib-metadata >=1
+    - pytest >=7
     - python >=3.7
     - setuptools
 
