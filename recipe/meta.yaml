@@ -17,13 +17,13 @@ build:
 requirements:
   host:
     - pip
-    - setuptools
-    - python >=3.7
+    - setuptools >=40
+    - python >=3.8
   run:
     - packaging >=17.1
     - importlib-metadata >=1
-    - pytest >=7
-    - python >=3.7
+    - pytest >=7.2
+    - python >=3.8
     - setuptools
 
 test:
