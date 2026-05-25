@@ -21,7 +21,7 @@ requirements:
     - python {{ python_min }}
   run:
     - packaging >=17.1
-    - pytest >=7.4,!=8.2.2
+    - pytest !=8.2.2,>=8.1
     - python >={{ python_min }}
 
 test:
