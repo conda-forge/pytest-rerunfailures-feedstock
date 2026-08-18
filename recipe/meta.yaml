@@ -1,5 +1,5 @@
 {% set name = "pytest-rerunfailures" %}
-{% set version = "16.5" %}
+{% set version = "16.6" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://files.pythonhosted.org/packages/source/{{ name[0] }}/{{ name }}/{{ name | replace('-', '_') }}-{{ version }}.tar.gz
-  sha256: 1481b45e6eb73228d19979c4481a8532007fadc6881d1198622cad1901c4afb2
+  sha256: 29dbfee46f542073c888e0ed4e81c51e15b9096f49a299eb1a759629c601684a
 
 build:
   number: 0
